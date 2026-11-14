@@ -1,0 +1,9 @@
+{
+    "name": "NoVanillaMessages",
+    "entry": "NoVanillaMessages.dll",
+    "version": "${modVersion}",
+    "type": "native",
+    "platform": "server",
+    "author": "Byjsmc",
+    "description": "Hide the vanilla system messages."
+}

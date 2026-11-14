@@ -1,0 +1,49 @@
+{
+    "format_version": 3,
+    "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
+    "tooth": "github.com/Byjsmc/NoVanillaMessages",
+    "version": "26.60.0",
+    "info": {
+        "name": "NoVanillaMessages",
+        "description": "Hide the vanilla \"joined the game\" / \"left the game\" system messages for LeviLamina servers.",
+        "tags": [
+            "platform:levilamina",
+            "type:mod"
+        ],
+        "avatar_url": "https://github.com/Byjsmc.png"
+    },
+    "variants": [
+        {
+            "label": "",
+            "platform": "win-x64",
+            "dependencies": {
+                "github.com/LiteLDev/LeviLamina": "26.60.*"
+            },
+            "assets": [
+                {
+                    "type": "zip",
+                    "urls": [
+                        "https://{{tooth}}/releases/download/v{{version}}/NoVanillaMessages-server-windows-x64.zip"
+                    ],
+                    "placements": [
+                        {
+                            "type": "dir",
+                            "src": "NoVanillaMessages/",
+                            "dest": "mods/NoVanillaMessages/"
+                        }
+                    ]
+                }
+            ],
+            "preserve_files": [],
+            "remove_files": [],
+            "scripts": {
+                "pre_install": [],
+                "install": [],
+                "post_install": [],
+                "pre_uninstall": [],
+                "uninstall": [],
+                "post_uninstall": []
+            }
+        }
+    ]
+}
